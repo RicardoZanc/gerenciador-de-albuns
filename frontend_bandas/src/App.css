@@ -1,0 +1,13 @@
+body {
+  background-color: #292929;
+}
+
+#main-screen {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
+}
+
+/* h1 {
+  text-align: center;
+} */
