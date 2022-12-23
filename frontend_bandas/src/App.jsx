@@ -19,7 +19,11 @@ function App() {
         </h1>
       </nav>
       <div id="main-screen" className="m-5 px-4">
-        <Albuns />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/albuns" element={<Albuns />} />
+          </Routes>
+        </BrowserRouter>
       </div>
     </>
   );
